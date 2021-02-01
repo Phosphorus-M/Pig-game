@@ -1,0 +1,72 @@
+[gd_scene format=2]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 640.0
+margin_bottom = 40.0
+color = Color( 0, 0, 0, 0.796078 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level" type="Label" parent="."]
+margin_left = 26.0
+margin_right = 139.0
+margin_bottom = 40.0
+text = "Level:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HP" type="Label" parent="."]
+margin_left = 177.0
+margin_right = 290.0
+margin_bottom = 40.0
+text = "HP:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="Label" parent="."]
+margin_left = 290.0
+margin_right = 403.0
+margin_bottom = 40.0
+text = "Floor:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Window" type="ColorRect" parent="."]
+margin_top = 40.0
+margin_right = 1280.0
+margin_bottom = 720.0
+color = Color( 0, 0, 0, 0.85098 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Window"]
+margin_left = 445.957
+margin_top = 225.462
+margin_right = 818.957
+margin_bottom = 333.462
+text = "Ganaste!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Window"]
+margin_left = 361.188
+margin_top = 436.116
+margin_right = 949.188
+margin_bottom = 606.116
+text = "Restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
